@@ -1,14 +1,15 @@
 
 import { Fragment } from 'react';
 import './App.css';
+import Facebook from './component/Facebook';
 import Counter from './component/Counter';
-import Parent from './component/Parent';
+
 
 function App() {
   return (
     <div>
     <Counter/>
-    <Parent/>
+    <Facebook/>
   </div>
   )
   
